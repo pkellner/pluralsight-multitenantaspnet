@@ -16,6 +16,9 @@ I will teach you, an ASP.NET web site developer, how to build a first class best
 I've found that EF is a little picky about how it wants to initialize
 the Sql Server Express database which is in the directory /AppData.
 
+First of all check if the folder named App_Data exists in your cloned folder. If it doesn't, try
+manually creating this folder and launching the solution again.
+
 It's important that you don't simply delete the database files but that you do that
 through the menu choice on VS View/Sql Server objects.  Drill into databases
 and then right click and remove the dbmultitenant database and make sure to click
